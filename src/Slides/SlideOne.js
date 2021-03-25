@@ -24,18 +24,19 @@ function SlideOne() {
   }, [random, products.length])
 
   return (
-    <Slide>
-      <FlexBox justifyContent={'space-around'}>
-        <Grid>
-          <Heading fontSize={'80px'}>Desarrollando
+    <Slide >
+      <FlexBox  height='100%' justifyContent={'space-around'} alignContent='center'>
+        <Grid >
+          <Heading textAlign='left' margin={'0px'} fontSize={'80px'}>Desarrollando
           </Heading>
-          <Heading>
+          <Heading textAlign='left' margin={'0px'}>
           {products[random]}
           </Heading>
+          <Text textAlign={'left'} margin={'0px'}>@mariangace</Text>
         </Grid>
         <FlexBox flexDirection='column' alignContent={'flex-end'} justifyContent={'flex-end'} >
           <Image width={'100%'} src="../images/technology.gif"></Image>
-          <Text textAlign={'rigth'}>@mariangace</Text>
+         
         </FlexBox>
       </FlexBox>
     </Slide>

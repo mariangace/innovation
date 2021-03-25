@@ -5,8 +5,8 @@ function SlideTen() {
 
   return (
     <Slide>
-      <Heading>¿Quién es usuario? ¿Quién es cliente?</Heading>
-        <FlexBox>
+      <Heading>¿Usuario o cliente? </Heading>
+        <FlexBox heigth='100%'>
           <Image width='30%' src="../images/fb.png"/>
           <Image width='30%' src="../images/wa.jpg"/>
         </FlexBox>

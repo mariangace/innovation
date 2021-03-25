@@ -5,7 +5,7 @@ function SlideFour() {
 
   return (
     <Slide>
-      <Heading>Tecnología en tiempos de pandemia</Heading>
+      <Heading>Tecnología en tiempos <br></br>de pandemia</Heading>
         <FlexBox>
           <Image width='300px' src="../images/ecom.gif"/>
           <Image width='300px' src="../images/edu.gif"/>

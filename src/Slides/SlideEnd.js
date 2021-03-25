@@ -9,7 +9,7 @@ function SlideSeven() {
       <Heading fontSize="200px">
         Gracias
       </Heading>
-
+      <Heading fontSize="40px" margin='0px'> 🤩 🥳 🤖 😎 🤯</Heading>
       <Text textAlign={'center'}>@mariangace</Text>
     </Slide>
   )

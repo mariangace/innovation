@@ -9,7 +9,7 @@ function SlideFive() {
         <FlexBox flexDirection='column'>
           <Image width='400px' src="../images/app.gif"/>
           <Text>VS</Text>
-          <Image  src="../images/problem.gif"/>
+          <Image  width='400px' src="../images/problem.gif"/>
         </FlexBox>
     </Slide>
   )

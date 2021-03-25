@@ -5,7 +5,7 @@ function SlideSeven() {
 
   return (
     <Slide>
-      <Heading>Prototipa</Heading>
+      <Heading>Prototipo (tu mejor aliado)</Heading>
         <FlexBox flexDirection='column'>
           <Appear>
             <FlexBox>
@@ -14,7 +14,7 @@ function SlideSeven() {
             </FlexBox>
           </Appear>
           <Appear>
-            then ...
+            después ...
           </Appear>
           <Appear>
             <FlexBox>

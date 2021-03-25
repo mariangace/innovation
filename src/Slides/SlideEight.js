@@ -6,15 +6,14 @@ function SlideEigth() {
   return (
     <Slide>
       <Heading>Landing Page</Heading>
-        <FlexBox >
-          
+        <FlexBox  justifyContent='space-between'>
           <Image width='300px' src="../images/social_media.gif"/>
-         
-          <Grid><Image width='600px' src="../images/landing.png"/>
-          <FlexBox justifyContent='center' marginTop='60px'>
-            <Image width='100px' src="../images/wp.png"/>
-            <Image width='100px' src="../images/wix.png"/>
-          </FlexBox>
+          <Grid>
+            <Image width='600px' src="../images/landing.png"/>
+            <FlexBox justifyContent='center' marginTop='60px'>
+              <Image margin='20px' width='100px' src="../images/wp.png"/>
+              <Image margin='20px' width='100px' src="../images/wix.png"/>
+            </FlexBox>
           </Grid>
           <Image width='300px' src="../images/dashboard.png"/>
         </FlexBox>        

@@ -7,9 +7,9 @@ function SlideTen() {
     <Slide>
       <Heading>Design Thinking</Heading>
         <FlexBox>
-          <Image width='70%' src="../images/design_thinking.jpg"/>
+          <Image width='50%' src="../images/design_thinking.jpg"/>
         </FlexBox>
-       <Text>Prueba rápido, fracasa rápido</Text>
+       <Text textAlign='center'>"Prueba rápido, fracasa rápido"</Text>
     </Slide>
   )
 }

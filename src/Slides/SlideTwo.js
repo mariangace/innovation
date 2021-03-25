@@ -5,7 +5,7 @@ function SlideTwo() {
 
   return (
     <Slide>
-      <FlexBox>
+      <FlexBox  height='100%' alignContent='center'>
         <Grid>
           <Image src='../images/profile.jpg' />
         </Grid>
